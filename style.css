@@ -1,0 +1,73 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    margin-left: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+header #info, header #cv-photo-wrapper{
+    font-size: 0.9rem;
+}
+
+header #info{
+    margin-right: 50px;
+}
+
+header #cv-photo-wrapper{
+    display: flex;
+    text-align: start;
+    align-items: center;
+}
+
+#cv-photo{
+    width:auto; 
+    height:120px;
+    margin-right: 30px;
+}
+
+.about, .experience, .education, .skills {
+    margin-top: 20px;
+}
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header a{
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
